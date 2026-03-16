@@ -21,7 +21,6 @@ nav a{
     padding: 8px 12px;
     background-color: #4f6f4e;
     border-radius: 5px;
-    display: inline-block;
 }
 nav a:hover{
     opacity: 0.8;
