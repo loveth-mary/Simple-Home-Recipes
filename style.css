@@ -26,7 +26,17 @@ nav a:hover{
     opacity: 0.8;
     
 }
-div{
+.hero-section img{
+    border: 1px solid #ccc;
+    width: 70%;
+    transition: 0.5s ease;
+    display: block;
+    margin: 0 auto;
+}
+.hero-section img:hover{
+    filter: brightness(80%);
+}
+.recipe-card{
     display: inline-block;
     margin: 10px;
     border: 1px solid #ccc;
@@ -37,28 +47,29 @@ div{
     border-radius: 10px;
     box-sizing: border-box;
 }
-div img{
+.recipe-card img{
     width: 100%;
     height: 300px;
 }
-.hero-img img{
-    border: 1px solid #ccc;
-    width: 100%;
-    transition: 0.5s ease;
-}
-.hero-img img:hover{
-    filter: brightness(80%);
-}
-.hero-img img{
-
-}
-div:hover{
+.recipe-card:hover{
     background-color: #fff0b3;
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
+.recipe-card ul{
+    text-align: left;
+}
 h1, h2{
     font-weight: bold;
+}
+.view-btn{
+    background-color: #6c8f6b;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
 }
 footer{
     margin-top: 20px;
@@ -88,4 +99,14 @@ tr:hover{
 tr:first-child{
     background-color: #6c8f6b;
     color: white;
+}
+
+/* styling recipes page */
+details{
+    margin-top: 10px;
+    cursor: pointer;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
 }
