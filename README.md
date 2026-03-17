@@ -31,3 +31,22 @@ nav {
 This allows the navigation items to wrap neatly on smaller screens.
 
 Next step: build the Recipes page.
+
+
+Day 4 – Recipes Page
+
+Added a Recipes Page to the Simple Home Recipes project.
+
+Features:
+Multiple recipe cards with images and descriptions
+Expandable ingredients section using semantic HTML
+Improved layout to avoid overcrowding content
+
+Update:
+I made slight adjustments to the homepage to better accommodate the Recipes page
+Focused on improving structure and user experience while building with HTML and CSS.
+
+
+Live Demo:  
+
+https://loveth-mary.github.io/Simple-Home-Recipes/
