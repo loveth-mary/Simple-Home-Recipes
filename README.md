@@ -47,6 +47,17 @@ I made slight adjustments to the homepage to better accommodate the Recipes page
 Focused on improving structure and user experience while building with HTML and CSS.
 
 
+Day 5 – Submit Recipe Page
+
+Added a submit-recipe page to my project.
+Features:
+• Structured form using HTML
+• Styled with CSS (no <br> used)
+• Consistent button and link design
+
+Learning step by step and building as I go.
+
+
 Live Demo:  
 
 https://loveth-mary.github.io/Simple-Home-Recipes/
