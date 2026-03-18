@@ -63,13 +63,16 @@ h1, h2{
     font-weight: bold;
 }
 .view-btn{
-    background-color: #6c8f6b;
+    background-color: #4f6f4e;
     color: white;
     padding: 10px 16px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     margin-left: 10px;
+}
+.view-btn:hover{
+    opacity: 0.8;
 }
 footer{
     margin-top: 20px;
@@ -109,4 +112,41 @@ details{
 summary{
     cursor: pointer;
     font-weight: bold;
+}
+
+/* styling submit-recipe form */
+.recipe-form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.recipe-form label{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.recipe-form input, .recipe-form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.recipe-form textarea{
+    height: 100px;
+    resize: vertical;
+}
+.recipe-form button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4f6f4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.recipe-form button:hover{
+    background-color: #5a7a59;
+}
+.recipe-form{
+    padding: 20px;
 }
