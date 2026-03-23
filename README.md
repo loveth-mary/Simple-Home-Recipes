@@ -58,6 +58,30 @@ Features:
 Learning step by step and building as I go.
 
 
+
+## 🍚 Fried Rice Instruction Page (Day 6 & 7)
+
+Over the past two days, I worked on building the fried rice instruction page for my *Simple Home Recipes* project.
+
+This part of the project focuses on structuring a clear and easy-to-follow recipe page, including ingredients and step-by-step cooking instructions.
+
+### What I worked on:
+- Creating a dedicated instruction page for fried rice
+- Structuring content using lists
+- Linking files across folders using relative paths
+- Improving navigation by adding a link back to the recipes page
+
+### What I learned:
+- How to properly link CSS files from different folders (../style.css)
+- Better page structure for readability and user experience
+- The importance of consistency across multiple pages
+
+### Status:
+Work in progress — more recipe instruction pages coming next.
+
+💻 Still building and improving step by step.
+
+
 Live Demo:  
 
 https://loveth-mary.github.io/Simple-Home-Recipes/
