@@ -59,7 +59,7 @@ Learning step by step and building as I go.
 
 
 
-## 🍚 Fried Rice Instruction Page (Day 6 & 7)
+## 🍚 Day 6 & 7 - Fried Rice Instruction Page
 
 Over the past two days, I worked on building the fried rice instruction page for my *Simple Home Recipes* project.
 
