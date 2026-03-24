@@ -33,17 +33,25 @@ nav a:hover{
     transition: 0.5s ease;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 .hero-section img:hover{
     filter: brightness(80%);
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 .recipe-card{
     display: inline-block;
-    margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
+    margin-top: 10px;
     text-align: center;
-    width: 350px;
+    width: 100%;
     background-color: #fff8e1;
     border-radius: 10px;
     box-sizing: border-box;
@@ -70,7 +78,7 @@ h1, h2{
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     transition: 0.8s ease;
 }
 .view-btn:hover{
