@@ -1,3 +1,20 @@
+function loadNavbar() {
+    document.querySelector(".navbar").innerHTML = `<a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="meal-plan.html">Meal Plan</a>
+    <a href="submit-recipe.html">Submit Recipe</a>`;
+}
+
+function loadFooter () {
+    document.querySelector(".footer").innerHTML = `<p>&copy 2026 Simple Home Recipes</p>`;
+}
+
+
+loadNavbar();
+loadFooter();
+
+
+// Making form to submit via WhatsApp
 const recipeForm = document.getElementById("recipeForm");
 
 recipeForm.addEventListener("submit", function (event) {
@@ -20,6 +37,8 @@ recipeForm.addEventListener("submit", function (event) {
 
     const message = 
     `New Recipe Submission.
+
+    Your Name: ${yourName}
 
     Phone Number: ${phone}
 
