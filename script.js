@@ -5,12 +5,22 @@ function loadNavbar() {
     <a href="submit-recipe.html">Submit Recipe</a>`;
 }
 
+
+function loadInstructionNavbar() {
+    document.querySelector(".navbar").innerHTML = `<a href="../index.html">Home</a>
+    <a href="../recipes.html">Recipes</a>
+    <a href="../meal-plan.html">Meal Plan</a>
+    <a href="../submit-recipe.html">Submit Recipe</a>`;
+}
+
+
 function loadFooter () {
     document.querySelector(".footer").innerHTML = `<p>&copy 2026 Simple Home Recipes</p>`;
 }
 
 
 loadNavbar();
+loadInstructionNavbar()
 loadFooter();
 
 
