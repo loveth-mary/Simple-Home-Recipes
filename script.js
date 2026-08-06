@@ -19,11 +19,6 @@ function loadFooter () {
 }
 
 
-loadNavbar();
-loadInstructionNavbar()
-loadFooter();
-
-
 // Making form to submit via WhatsApp
 const recipeForm = document.getElementById("recipeForm");
 
