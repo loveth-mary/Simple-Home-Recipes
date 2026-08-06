@@ -27,46 +27,49 @@ loadFooter();
 // Making form to submit via WhatsApp
 const recipeForm = document.getElementById("recipeForm");
 
-recipeForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+if (recipeForm) {
 
-    const yourName = document.getElementById("yourName").value;
+    recipeForm.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-    const phone = document.getElementById("phone").value;
+        const yourName = document.getElementById("yourName").value;
 
-    const recipeName = document.getElementById("recipeName").value;
+        const phone = document.getElementById("phone").value;
 
-    const description = document.getElementById("description").value;
+        const recipeName = document.getElementById("recipeName").value;
 
-    const ingredients = document.getElementById("ingredients").value;
+        const description = document.getElementById("description").value;
 
-    const instructions = document.getElementById("instructions").value;
+        const ingredients = document.getElementById("ingredients").value;
 
-    const image = document.getElementById("image").value;
+        const instructions = document.getElementById("instructions").value;
+
+        const image = document.getElementById("image").value;
 
 
-    const message = 
-    `New Recipe Submission.
+        const message = 
+        `New Recipe Submission.
 
-    Your Name: ${yourName}
+        Your Name: ${yourName}
 
-    Phone Number: ${phone}
+        Phone Number: ${phone}
 
-    Recipe Name: ${recipeName}
+        Recipe Name: ${recipeName}
 
-    Description: ${description}
+        Description: ${description}
 
-    Ingredients: ${ingredients}
+        Ingredients: ${ingredients}
 
-    Instructions: ${instructions}
+        Instructions: ${instructions}
 
-    Image URL: ${image}`;
+        Image URL: ${image}`;
 
-    const phoneNumber = "2348143075874";
+        const phoneNumber = "2348143075874";
 
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-    window.open(whatsappURL,"_blank");
+        window.open(whatsappURL,"_blank");
 
-    recipeForm.reset();
-});
+        recipeForm.reset();
+    });
+};
