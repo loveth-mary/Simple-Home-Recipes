@@ -147,7 +147,8 @@ table{
 }
 th, td{
     border: 1px solid #333333;
-    padding: 10px;
+    /* Git practice */
+    padding: 11px;
     text-align: center;
 }
 tr:nth-child(even){
